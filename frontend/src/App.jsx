@@ -1,12 +1,18 @@
-import React from 'react'
 import {Routes, Route} from 'react-router-dom';
-// import Home from './pages/Home';
+import Header from './components/header.jsx';
+import Footer from './components/footer.jsx';
+import Home from './pages/Home.jsx';
+
 export default function App() {
   return (
-    <div>
-      {/* <Routes>
-        
-      </Routes> */}
-    </div>
+    <>
+      <Header />
+      <main>
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
   )
 }
