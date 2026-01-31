@@ -5,3 +5,6 @@
 # Day 2
 - Understand real component reuseability 
 - navigation bar designing 
+
+### Amlan 
+- Footer created
