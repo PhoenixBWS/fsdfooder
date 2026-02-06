@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --sans: 'DM Sans', sans-serif;
+    --serif: 'Playfair Display', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: inherit;
+    line-height: 1.5em;
+    vertical-align: baseline;
+}
+
+body {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f7;
+    font-family: var(--sans);
+}
+
+.sect {
+    padding: 5vw 10vw;
+}
+
+.sectW {
+    background-color: white;
+}
+
+.sans {
+    font-family: var(--sans);
+}
+
+.serif {
+    font-family: var(--serif);
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.sectH2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.gridTrinity {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
+    gap: calc(1rem + 0.5vw);
+}
+
+.gridTrinity2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
+    gap: calc(1rem + 1vw);
+}
+
+.playCon {
+    min-height: 45dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../assets/aboutPlay.avif');
+    background-size: cover;
+    background-position: 50% 80%;
+    isolation: isolate;
+    color: #fff;
+    min-height: 45vw;
+    position: relative;
+}
+
+.playCon::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: rgb(39 40 35 / 0.76);
+}
+
+.playCon > div {
+    max-width: 40rem;
+    flex: 1 1 40%;
+}
+
+.playCon h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-wrap: balance;
+}
+
+.playCon figure img {
+    width: 4.25rem;
+    height: auto;
+}
+
+.midH2 {
+    font-family: var(--serif);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    line-height: 1.1em;
+    text-wrap: balance;
+}
+
+.duoFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: max(4vw, 2rem);
+    align-items: center;
+}
+
+.duoFlex > div {
+    flex: 1 1 30%;
+}
+
+.duoFlex > div > p {
+    color: #414536;
+}
+
+.duoFlex > figure {
+    flex: 1 1 20%;
+}
+
+.quadGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr));
+    gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+@media only screen and (width >= 1200px) {
+    .quadGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

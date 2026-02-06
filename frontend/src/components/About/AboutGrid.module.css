@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    border: 1px solid #DBDFD0;
+    text-align: center;
+}
+
+.item h3 {
+    font-family: var(--serif);
+    margin-bottom: 0.75rem;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.item p {
+    color: #414536;
+    margin-top: 1rem;
+}
