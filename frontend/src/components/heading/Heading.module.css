@@ -1,0 +1,26 @@
+.hcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 38rem;
+    height: 12rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    /* border: 2px,solid,black; */
+}
+.headingm{
+    font-family: var(--Playfair-font-family);
+    font-size: 100px;
+    font-weight: 400;
+    color: #2C2F24;
+    text-align: center;
+}
+
+.headingt{
+    font-family: var(--DMSans-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    color: #495460;
+    text-align: center;
+}

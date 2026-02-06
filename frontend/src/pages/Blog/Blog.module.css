@@ -1,0 +1,10 @@
+.blog-content {
+    padding-inline: 10vw;
+    margin-bottom: max(7.5vw, 2rem);
+}
+
+.blog-content, .blog-related {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+    gap: 2rem 1.5rem;
+}

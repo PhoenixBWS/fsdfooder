@@ -1,8 +1,12 @@
 {
-  "name": "frontend",
-  "private": true,
+  "name": "fsdfooder",
   "version": "0.0.0",
+  "private": true,
+  "description": "- Create folder structer \r - decide figma and features",
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

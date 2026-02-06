@@ -1,0 +1,16 @@
+.page-header-2 {
+    padding: max(5vw, 2rem) 0 1rem;
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-header-2 h1, .blog-post-related--header h2 {
+    color: #2c2f24;
+    font-family: var(--serif);
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    text-wrap: balance;
+    line-height: 1.25em;
+    width: unset;
+}

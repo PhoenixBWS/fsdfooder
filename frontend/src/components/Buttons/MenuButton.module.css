@@ -1,0 +1,16 @@
+.btn{
+    font-family: var(--DMSans-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 16px,8px,16px,8px;
+    width: 7rem;
+    height: 3rem;
+    border: 1px, solid, #DBDFD0;
+    background: transparent;
+    color: #2C2F24;
+}
+.btn:focus{
+    background-color: #AD343E;
+    color: #FFFFFF;
+}

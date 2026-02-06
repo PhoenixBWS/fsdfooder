@@ -1,0 +1,32 @@
+.page-header {
+    padding: max(5vw, 2rem) 10vw;
+    text-align: center;
+}
+
+.page-header h1 {
+    color: #2c2f24;
+    font-family: var(--serif);
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    text-wrap: balance;
+    width: unset;
+}
+
+@media only screen and (width >= 768px) {
+    .page-header h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (width >= 1024px) {
+    .page-header h1 {
+        font-size: 4.5rem;
+    }
+}
+
+.page-header p {
+    color: #414536;
+    max-width: 28rem;
+    margin: 0 auto;
+    font-size: 0.875rem;
+}
