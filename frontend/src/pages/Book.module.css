@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #F9F9F7;
+}
+.content{
+    height: 38.5rem;
+}
+.head{
+    margin-bottom: 6rem;
+}
+
+.book{
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+top: 4rem;
+}
+
+.map{
+    height: 38.5rem;
+    background-image: url('../assets/book_ico/map.png');
+}

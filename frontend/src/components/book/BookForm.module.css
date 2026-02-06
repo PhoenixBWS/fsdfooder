@@ -1,0 +1,128 @@
+.content{
+    box-shadow: 20px, 20px, 10px, 4px, green;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px, solid,  #FFFFFF;
+    border-radius: 16px;
+    font-size: 16px;
+    font-family: var(--DMSans-font-family);
+    font-weight: 700;
+    color: #2C2F24;
+    padding: 2rem;
+    width: 51rem;
+    height: 31rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    /* margin-top: 6rem;
+    margin-bottom: 6rem; */
+    /* gap: 2rem; */
+    /* text-align: center */
+    /* width: 812px;
+    height: 504px; */
+    /* gap: 2rem; */
+    /* padding-top: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem; */
+    /* margin: 2rem; */
+    
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    height: 19rem;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 6rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input_size{
+    border: 1px,solid,#DBDFD0;
+    border-radius: 72px;
+    height: 3.75rem;
+    width: 360px;
+    /*height: 60px;
+    width: 350px;*/
+    /* height: 3rem;
+    width: 38rem; */
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+}
+.pad{
+    /* border: 1px,solid,#DBDFD0;
+    border-radius: 72px;
+    height: 60px;
+    width: 350px;*/
+    /* padding: 1.5rem; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.input2_size{
+    border: 1px,solid,#DBDFD0;
+    border-radius: 72px;
+    height: 3.75rem;
+    /* width: 46.8rem; */
+    width: 100%;
+}
+
+.person{
+    font-weight: 400;
+}
+
+.book{
+    background-color: #AD343E;
+    color: #FFFFFF;
+    height: 64px;
+}
+
+/* .input2{
+    border: 1px,solid,#DBDFD0;
+    border-radius: 72px;
+    height: 3.75rem;
+    width: 46.8rem;
+    /* padding: 1.5rem; */
+    /* text-align: center;
+} */
+
+/* .input3{
+    border: 1px,solid,#DBDFD0;
+    border-radius: 72px;
+    height: 64px;
+    width: 46.8rem;
+    background-color: #AD343E;
+    color: #FFFFFF;
+    font-weight: 700;
+} */
+
+.abc{
+    color: #737865;
+}

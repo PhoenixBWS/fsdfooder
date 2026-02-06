@@ -19,7 +19,7 @@ export default function Order() {
                 </div>
 
                 <div className={styles.imcont}>
-                    <div className={styles.box1}>
+                    <div className={styles.box}>
                         <img src={uber} alt="uber" className={styles.ims} />
                         <img src={grub} alt="grub" className={styles.ims} />
                         <img src={post} alt="post" className={styles.ims} />
@@ -31,7 +31,7 @@ export default function Order() {
                         <img src={deliver} alt="post" className={styles.ims} />
                     </div>
 
-                    <div className={styles.box1}>
+                    <div className={styles.box}>
                         <img src={insta} alt="uber" className={styles.ims} />
                         <img src={just} alt="grub" className={styles.ims} />
                         <img src={didi} alt="post" className={styles.ims} />

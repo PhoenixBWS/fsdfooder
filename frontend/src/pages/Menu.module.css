@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,35 +7,52 @@
 @font-face {
     font-family: DMSans;
     src: url(../assets/fonts/DMSans.ttf);
-    
+
     font-family: Playfair;
     src: url(../assets/fonts/PlayfairDisplay.ttf);
 }
 
-:root{
+:root {
     --DMSans-font-family: DMSans;
-    --Playfair-font-family:Playfair;
+    --Playfair-font-family: Playfair;
 }
 
-.main{
+.main {
     background-color: #FFFFFF;
 }
 
-.content{
-    padding-left: 8rem;
-    padding-right: 8rem;
-    margin-bottom: 6rem;
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.heading{
+.hcon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin-top: 4rem;
-    height: 19rem;
+    height: 19.5rem;
 }
 
-.mitems{
-    margin-top: 4rem;
+.head{
+    margin-bottom: 2rem;
+}
+
+.mitems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    width: 80%;
+}
+
+.order {
+    background-color: #F9F9F7;
+    margin-top: 8rem;
+    /* margin-bottom: 4rem; */
+    padding-bottom: 2rem;
 }

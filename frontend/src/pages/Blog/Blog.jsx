@@ -1,5 +1,6 @@
 import styles from './Blog.module.css';
-
+import ContactNav from '../../components/navbars/ContactNav.jsx'
+import NavBar from '../../components/navbars/NavBar.jsx'
 import BigPageHeader from '../../components/BigPageHeader/BigPageHeader';
 import BlogGridItem from '../../components/BlogGridItem/BlogGridItem';
 import Footer from '../../components/Footer/Footer';
@@ -7,6 +8,8 @@ import Footer from '../../components/Footer/Footer';
 export default function Blog() {
     return (
         <>
+        <ContactNav />
+        <NavBar />
             <BigPageHeader title="Our Blog & Articles" description="We consider all the drivers of change gives you the components you need to change to create a truly happens." />
             <section className={styles['blog-content']}>
                 <BlogGridItem

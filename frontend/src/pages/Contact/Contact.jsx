@@ -2,20 +2,24 @@ import styles from './Contact.module.css';
 import BigPageHeader from '../../components/BigPageHeader/BigPageHeader';
 import FullWidthSubmitButton from '../../components/FullWidthSubmitButton/FullWidthSubmitButton';
 import Footer from '../../components/Footer/Footer';
+import ContactNav from '../../components/navbars/ContactNav.jsx'
+import NavBar from '../../components/navbars/NavBar.jsx'
 
 export default function Contact() {
     const noSubmit = (e) => {
         e.preventDefault();
         alert("Form submission is currently disabled.");
     }
-    
+
     return (
         <>
-        <BigPageHeader 
-            title="Contact Us" 
-            description="We consider all the drivers of change gives you the components you need to change to create a truly happens." />
-        
-        <section className={styles['contact-form']}>
+            <ContactNav />
+            <NavBar />
+            <BigPageHeader
+                title="Contact Us"
+                description="We consider all the drivers of change gives you the components you need to change to create a truly happens." />
+
+            <section className={styles['contact-form']}>
                 <form action="#" method="POST" onSubmit={noSubmit} >
                     <fieldset>
                         <div className={styles['contact-form-half-field']}>
