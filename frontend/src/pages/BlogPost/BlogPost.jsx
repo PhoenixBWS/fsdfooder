@@ -8,6 +8,11 @@ import Footer from '../../components/Footer/Footer';
 import ContactNav from '../../components/navbars/ContactNav.jsx'
 import NavBar from '../../components/navbars/NavBar.jsx'
 
+import r1 from '/src/assets/blog/c57f62c9c2a8b89a7cbb3dee33e0d3fe8117b14d.avif'
+import r2 from '/src/assets/blog/420255a39422fb3e768e8405fe617c5d1029aaf0.avif'
+import r3 from '/src/assets/blog/11e20661916d0dbd21a5d340edbcfa2c6a94e42d.avif'
+import r4 from '/src/assets/blog/100d5801c991324b3d782647183c9fdb652d8eb4.avif'
+
 export default function BlogPost() {
     return (
         <>
@@ -63,25 +68,25 @@ export default function BlogPost() {
 
                 <div className={styles['blog-related']}>
                     <BlogGridItem
-                        imagePath="/src/assets/blog/c57f62c9c2a8b89a7cbb3dee33e0d3fe8117b14d.avif"
+                        imagePath={r1}
                         title="How to prepare a delicious gluten free sushi"
                         y="82%"
                     />
 
                     <BlogGridItem
-                        imagePath="/src/assets/blog/420255a39422fb3e768e8405fe617c5d1029aaf0.avif"
+                        imagePath={r2}
                         title="Exclusive baking lessons from the pastry king"
                         y="82%"
                     />
 
                     <BlogGridItem
-                        imagePath="/src/assets/blog/11e20661916d0dbd21a5d340edbcfa2c6a94e42d.avif"
+                        imagePath={r3}
                         title="How to prepare the perfect fries in an air fryer"
                         y="82%"
                     />
 
                     <BlogGridItem
-                        imagePath="/src/assets/blog/100d5801c991324b3d782647183c9fdb652d8eb4.avif"
+                        imagePath={r4}
                         title="How to prepare delicious chicken tenders"
                         y="28%"
                     />
