@@ -7,9 +7,9 @@ import ContactNav from '../../components/navbars/ContactNav.jsx'
 import NavBar from '../../components/navbars/NavBar.jsx'
 import aboutImg from "../../assets/about.avif";
 import playButton from "../../assets/Play.png";
-import user1 from "../../assets/user.png";
-import user2 from "../../assets/user1.png";
-import user3 from "../../assets/user2.png";
+import user1 from "../../assets/User.png";
+import user2 from "../../assets/User1.png";
+import user3 from "../../assets/User2.png";
 import play1 from "../../assets/menu.png";
 import play2 from "../../assets/radio.png";
 import play3 from "../../assets/timer.png";

@@ -4,6 +4,18 @@ import NavBar from '../../components/navbars/NavBar.jsx'
 import BigPageHeader from '../../components/BigPageHeader/BigPageHeader';
 import BlogGridItem from '../../components/BlogGridItem/BlogGridItem';
 import Footer from '../../components/Footer/Footer';
+import image1 from '../../assets/blog/c57f62c9c2a8b89a7cbb3dee33e0d3fe8117b14d.avif'
+import image2 from '../../assets/blog/420255a39422fb3e768e8405fe617c5d1029aaf0.avif'
+import image3 from '../../assets/blog/11e20661916d0dbd21a5d340edbcfa2c6a94e42d.avif'
+import image4 from '../../assets/blog/100d5801c991324b3d782647183c9fdb652d8eb4.avif'
+import image5 from '../../assets/blog/40c980ee0c199025a72a8a7c861e9a8380e5bc41.avif'
+import image6 from '../../assets/blog/7be5eedfbf36a2b8e604a73d1f7e6d89a9758f43.avif'
+import image7 from '../../assets/blog/4ea57d967195cfc23a179b1728c613c1821d2b48.avif'
+import image8 from '../../assets/blog/306f8737b3105b68a5e63b91ed1f7fc9f16a83ec.avif'
+import image9 from '../../assets/blog/fdd06af95b0a8225ed5d67eb3346cd9319fbd2f8.avif'
+import image10 from '../../assets/blog/ce28b2742a4280f81eab426aa49d21ebf65ab1f0.avif'
+import image11 from '../../assets/blog/0384bb001683a1e0ee3f57fde3ea633f0a8db4ff.avif'
+import image12 from '../../assets/blog/2adac6ffb4b1eb4e605c59e62e68834ec7c1d135.avif'
 
 export default function Blog() {
     return (
@@ -13,70 +25,70 @@ export default function Blog() {
             <BigPageHeader title="Our Blog & Articles" description="We consider all the drivers of change gives you the components you need to change to create a truly happens." />
             <section className={styles['blog-content']}>
                 <BlogGridItem
-                    imagePath="/src/assets/blog/c57f62c9c2a8b89a7cbb3dee33e0d3fe8117b14d.avif"
+                    imagePath= {image1}
                     title="How to prepare a delicious gluten free sushi"
                     y="82%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/420255a39422fb3e768e8405fe617c5d1029aaf0.avif"
+                    imagePath={image2}
                     title="Exclusive baking lessons from the pastry king"
                     y="82%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/11e20661916d0dbd21a5d340edbcfa2c6a94e42d.avif"
+                    imagePath={image3}
                     title="How to prepare the perfect fries in an air fryer"
                     y="82%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/100d5801c991324b3d782647183c9fdb652d8eb4.avif"
+                    imagePath={image4}
                     title="How to prepare delicious chicken tenders"
                     y="28%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/40c980ee0c199025a72a8a7c861e9a8380e5bc41.avif"
+                    imagePath={image5}
                     title="5 great cooking gadgets you can buy to save time"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/7be5eedfbf36a2b8e604a73d1f7e6d89a9758f43.avif"
+                    imagePath={image6}
                     title="The secret tips & tricks to prepare a perfect burger"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/4ea57d967195cfc23a179b1728c613c1821d2b48.avif"
+                    imagePath={image7}
                     title="7 delicious chessecake recipes you can prepare"
                     y="65%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/306f8737b3105b68a5e63b91ed1f7fc9f16a83ec.avif"
+                    imagePath={image8}
                     title="5 great pizza restaurants you should visit this city"
                     y="65%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/fdd06af95b0a8225ed5d67eb3346cd9319fbd2f8.avif"
+                    imagePath={image9}
                     title="5 great cooking gadgets you can buy to save time"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/ce28b2742a4280f81eab426aa49d21ebf65ab1f0.avif"
+                    imagePath={image10}
                     title="How to prepare a delicious gluten free sushi"
                     y="32%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/0384bb001683a1e0ee3f57fde3ea633f0a8db4ff.avif"
+                    imagePath={image11}
                     title="Top 20 simple and quick desserts for kids"
                     y="82%"
                 />
                 
                 <BlogGridItem
-                    imagePath="/src/assets/blog/2adac6ffb4b1eb4e605c59e62e68834ec7c1d135.avif"
+                    imagePath={image12}
                     title="Top 20 simple and quick desserts for kids"
                     y="82%"
                 />

@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Home.module.css";
 import HeroOfHome from "../../components/Home/HeroOfHome";
 import HomeMenuGridItem from "../../components/Home/HomeMenuGridItem";
@@ -29,9 +30,9 @@ import icon1 from "../../assets/icon.png";
 import icon2 from "../../assets/icon1.png";
 import icon3 from "../../assets/icon2.png";
 
-import user1 from "../../assets/user.png";
-import user2 from "../../assets/user1.png";
-import user3 from "../../assets/user2.png";
+import user1 from "../../assets/User.png";
+import user2 from "../../assets/User1.png";
+import user3 from "../../assets/User2.png";
 
 import blog1 from "../../assets/burger.png";
 import blog2 from "../../assets/fries.png";
@@ -43,8 +44,10 @@ import Footer from '../../components/Footer/Footer';
 const Home = () => {
   return (
     <>
-     <ContactNav />
-    <NavBar />
+      <div className={styles.nav}>
+        <ContactNav />
+        <NavBar />
+      </div>
       <HeroOfHome />
       <section className={`${styles.sect} ${styles.sectW}`}>
         <h2 className={`${styles.serif} ${styles.sectH2} ${styles.textCenter}`}>
